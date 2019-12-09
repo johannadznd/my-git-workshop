@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-cut -d , -f 1 $@ | grep -v Date | sort | uniq
+cut -d , -f 2 $@ | grep -v Tooth | sort | uniq
